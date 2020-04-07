@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: "Arial", sans-serif;
+  color: #fff;
+  background-color: #003366;
+  text-align: center;
+}
+.textarea {
+  width: 60%;
+  height: 100px;
+  margin-top: 1em;
+}
+
+.textAfter {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+.keyboard {
+  width: 70%;
+  height: 320px;
+  margin: auto;
+  background-color: #08457e;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.row:first-child {
+  margin-top: 0;
+}
+span {
+  box-sizing: border-box;
+  padding: 20px;
+  display: block;
+  text-align: center;
+  min-width: 60px;
+  min-height: 45px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 10%;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+span:hover {
+  background-color: lightgrey;
+  color: #08457e;
+}
+
+span:active {
+  background-color: rgba(17, 2, 2, 0.205);
+  border-radius: 20%;
+}
+
+.active {
+  background-color: rgba(17, 2, 2, 0.205);
+  border-radius: 20%;
+}
+
+.space {
+  width: 400px;
+  height: 60px;
+  border-radius: 10%;
+}
+
+.allSh {
+  width: 100px;
+}
+
+.leftShift {
+  width: 150px;
+}
+
+.capslock {
+  width: 100px;
+  text-align: center;
+}
+
+.arrowDown {
+  width: 80px;
+}

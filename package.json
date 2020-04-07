@@ -1,0 +1,24 @@
+{
+  "name": "virtualKeyboard",
+  "version": "1.0.0",
+  "description": "https://khomavolha.github.io/virtualKeyboard/",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khomavolha/virtualKeyboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khomavolha/virtualKeyboard/issues"
+  },
+  "homepage": "https://github.com/khomavolha/virtualKeyboard#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
